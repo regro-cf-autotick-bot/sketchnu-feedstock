@@ -28,7 +28,7 @@ test:
     - sketchnu
   commands:
     - pip check
-    - pytest sketchnu
+    - pytest --pyargs sketchnu
   requires:
     - pip
     - pytest

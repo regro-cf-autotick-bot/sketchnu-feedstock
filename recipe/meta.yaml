@@ -26,12 +26,14 @@ requirements:
 test:
   imports:
     - sketchnu
-  commands:
-    - pip check
-    - pytest
   requires:
     - pip
     - pytest
+  source_files:
+    - tests
+  commands:
+    - pip check
+    - pytest tests
 
 about:
   home: https://github.com/mhendrey/sketchnu

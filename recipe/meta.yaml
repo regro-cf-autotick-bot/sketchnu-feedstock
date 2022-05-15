@@ -31,7 +31,7 @@ test:
     - pytest
   requires:
     - pip
-    - pytest tests/
+    - pytest tests
 
 about:
   home: https://github.com/mhendrey/sketchnu

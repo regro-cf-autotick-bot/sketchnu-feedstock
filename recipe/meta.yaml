@@ -1,5 +1,5 @@
 {% set name = "sketchnu" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/mhendrey/sketchnu/archive/v{{ version }}.tar.gz
-  sha256: 2d8341acfd6fd41e9982116730da2a88c4913ee9efcb31cb4f2f5c0651b904ba
+  sha256: 4c427acbf28a5154a87a07c71ec10f300b3efdd302e18e593481459e9b888ce4
 
 build:
   noarch: python
